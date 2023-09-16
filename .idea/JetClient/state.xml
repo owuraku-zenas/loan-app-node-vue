@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="id" value="68d56dcb-7249-48c4-a961-d074f0907b4a" />
+          <option name="name" value="Loan" />
+          <option name="requests">
+            <list>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;123&quot;&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                    <headerState>
+                      <option name="disabled" value="true" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="60f77c54-a75e-4a06-ac82-1779e35713df" />
+                <option name="method" value="POST" />
+                <option name="name" value="Login" />
+                <option name="url" value="http://localhost:8000/signin" />
+              </requestState>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;123&quot;&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="fdefd5f1-6076-408d-a693-32a1cddad520" />
+                <option name="method" value="POST" />
+                <option name="name" value="Register" />
+                <option name="url" value="http://localhost:8000/signup" />
+              </requestState>
+              <requestState>
+                <option name="auth">
+                  <authState>
+                    <option name="bearer">
+                      <iK>
+                        <option name="token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJpYXQiOjE2OTQ3Njg5NTcsImV4cCI6MTY5NDg1NTM1N30.AFw1r3nSjlWYYgFpyE6-qir5Ti6Kakn6vEKIsikOqfA" />
+                      </iK>
+                    </option>
+                    <option name="type" value="BEARER" />
+                  </authState>
+                </option>
+                <option name="body">
+                  <bodyState>
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="ee96ad77-b5b4-4ee2-95b0-9840d8b17210" />
+                <option name="method" value="GET" />
+                <option name="name" value="Get Customers" />
+                <option name="url" value="http://localhost:8000/customer" />
+              </requestState>
+              <requestState>
+                <option name="auth">
+                  <authState>
+                    <option name="bearer">
+                      <iK>
+                        <option name="token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsImlhdCI6MTY5NDg2NTY3OSwiZXhwIjoxNjk0OTUyMDc5fQ.gy42Y8mX-Ypt3oB4n7MVyLTaUPyQwRyiKdnRTbYrnNQ" />
+                      </iK>
+                    </option>
+                    <option name="type" value="BEARER" />
+                  </authState>
+                </option>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;firstName&quot;: &quot;John&quot;,&#10;  &quot;lastName&quot;: &quot;Doe&quot;,&#10;  &quot;maritalStatus&quot;: &quot;MARRIED&quot;,&#10;  &quot;employer&quot;: &quot;ABC Inc.&quot;,&#10;  &quot;employmentStatus&quot;: &quot;EMPLOYED&quot;,&#10;  &quot;dateOfBirth&quot;: &quot;1990-01-01&quot;,&#10;  &quot;idCard&quot;: &quot;1234567sdfsfer4ert89&quot;,&#10;  &quot;address&quot;: &quot;123 Main St&quot;,&#10;  &quot;phoneNumber&quot;: &quot;555-555-5555&quot;&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="9c5bbd83-6813-41eb-b28b-7721f1f7473a" />
+                <option name="method" value="POST" />
+                <option name="name" value="Create Customer" />
+                <option name="url" value="http://localhost:8000/customer" />
+              </requestState>
+              <requestState>
+                <option name="auth">
+                  <authState>
+                    <option name="type" value="BEARER" />
+                  </authState>
+                </option>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;amount&quot;: 1000,&#10;  &quot;interest&quot;: 0.1,&#10;  &quot;total&quot;: 1100,&#10;  &quot;customerId&quot;: 1, &#10;  &quot;status&quot;: &quot;PENDING&quot;&#10;}&#10;" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="3a0e9562-db36-4d34-93b9-759298bf452e" />
+                <option name="method" value="POST" />
+                <option name="name" value="Create Loan" />
+              </requestState>
+              <requestState>
+                <option name="auth">
+                  <authState>
+                    <option name="bearer">
+                      <iK>
+                        <option name="token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJpYXQiOjE2OTQ3Njg5NTcsImV4cCI6MTY5NDg1NTM1N30.AFw1r3nSjlWYYgFpyE6-qir5Ti6Kakn6vEKIsikOqfA" />
+                      </iK>
+                    </option>
+                    <option name="type" value="BEARER" />
+                  </authState>
+                </option>
+                <option name="body">
+                  <bodyState>
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="409845ce-12e3-4dd7-b227-a483276b67b2" />
+                <option name="method" value="GET" />
+                <option name="name" value="Get User" />
+                <option name="url" value="http://localhost:8000/user" />
+              </requestState>
+            </list>
+          </option>
+          <option name="sortWeight" value="1000000" />
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="folderPath" value="C:\Users\Owuraku Zenas\OneDrive\Documents\Code Files\Afrifanom\.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+        </folderState>
+      </list>
+    </option>
+    <option name="id" value="18a6ad13-bb45-4e72-8a3f-bc72e6bd8937" />
+  </component>
+</project>
